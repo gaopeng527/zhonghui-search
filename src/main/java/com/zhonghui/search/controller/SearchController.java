@@ -34,6 +34,8 @@ public class SearchController {
 		}
 		SearchResult result = null;
 		try {
+			// 避免get乱码
+			queryString = new String(queryString.getBytes("iso8859-1"), "utf-8");
 			result = searchService.search(queryString, page, rows);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
