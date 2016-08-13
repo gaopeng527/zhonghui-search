@@ -4,8 +4,8 @@ import org.apache.solr.client.solrj.SolrQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.huizhong.search.dao.SearchDao;
-import com.huizhong.search.pojo.SearchResult;
+import com.zhonghui.search.dao.SearchDao;
+import com.zhonghui.search.pojo.SearchResult;
 import com.zhonghui.search.service.SearchService;
 /**
  * 搜索Service

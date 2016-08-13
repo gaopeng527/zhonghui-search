@@ -1,4 +1,4 @@
-package com.huizhong.search.pojo;
+package com.zhonghui.search.pojo;
 
 import java.util.List;
 

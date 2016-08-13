@@ -1,4 +1,4 @@
-package com.huizhong.search.dao.impl;
+package com.zhonghui.search.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.apache.solr.common.SolrDocumentList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.huizhong.search.dao.SearchDao;
-import com.huizhong.search.pojo.Item;
-import com.huizhong.search.pojo.SearchResult;
+import com.zhonghui.search.dao.SearchDao;
+import com.zhonghui.search.pojo.Item;
+import com.zhonghui.search.pojo.SearchResult;
 /**
  * 商品搜索Dao
  * @author DELL

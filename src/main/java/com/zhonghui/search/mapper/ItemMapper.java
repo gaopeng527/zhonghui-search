@@ -1,8 +1,8 @@
-package com.huizhong.search.mapper;
+package com.zhonghui.search.mapper;
 
 import java.util.List;
 
-import com.huizhong.search.pojo.Item;
+import com.zhonghui.search.pojo.Item;
 
 public interface ItemMapper {
 	

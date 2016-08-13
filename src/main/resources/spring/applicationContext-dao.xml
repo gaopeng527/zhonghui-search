@@ -29,7 +29,7 @@
 	
 	<!-- 配置扫描包，加载mapper代理对象 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.huizhong.mapper,com.huizhong.search.mapper"></property>
+		<property name="basePackage" value="com.huizhong.mapper,com.zhonghui.search.mapper"></property>
 	</bean>
 	
 </beans>

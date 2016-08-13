@@ -1,6 +1,6 @@
 package com.zhonghui.search.service;
 
-import com.huizhong.search.pojo.SearchResult;
+import com.zhonghui.search.pojo.SearchResult;
 
 public interface SearchService {
 	

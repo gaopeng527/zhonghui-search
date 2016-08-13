@@ -7,10 +7,10 @@ import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.huizhong.search.mapper.ItemMapper;
-import com.huizhong.search.pojo.Item;
 import com.zhonghui.common.pojo.ZhonghuiResult;
 import com.zhonghui.common.utils.ExceptionUtil;
+import com.zhonghui.search.mapper.ItemMapper;
+import com.zhonghui.search.pojo.Item;
 import com.zhonghui.search.service.ItemService;
 
 @Service
